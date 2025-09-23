@@ -9,7 +9,7 @@ export default function Home() {
           src="/github-banner.png"
           alt="logo"
           width={350}
-          height={300}
+          height={200}
           priority
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
