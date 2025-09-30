@@ -1,11 +1,12 @@
 "use client";
-
+//Los componentes son reutilizable
 import { Link } from "react-router-dom";
 
 type Props = {  //propiedades de un componente
   id: number;
   name: string;
   genre?: string;
+  
 };
 
 export default function ArtistCard({
